@@ -1,0 +1,233 @@
+/*单个用户展示演示的书写*/
+.j-list{
+    width: 100%;
+    border-top: 1px solid rgb(240,240,240);
+}
+/*用户姓名和发布时间*/
+.j-list-user{
+    width: 100%;
+    padding: 20px 0 10px 0;
+    height: 30px;
+    line-height: 30px;
+}
+.j-list-user .u-img{
+    width: 30px;
+    height: 30px;
+  margin-right: 20px;
+}
+.j-list-user .u-img img{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.j-list-user .u-text{
+    width: 558px;
+    height: 30px;
+}
+.j-list-user .u-text .u-username{
+    float: left;
+    font-size: 14px;
+    color: black;
+}
+.j-list-user .u-text .u-time{
+    float: right;
+    font-size: 12px;
+    color:gray;
+  }
+/*用户的展示部分*/
+.j-show .j-show-header{
+    width:588px;
+    padding-left: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    font-family:STHeiti, "Microsoft yahei", "微软雅黑", sans, tahoma;
+}
+.j-show .j-video{
+    width: 100%;
+    height: 360px;
+    padding:0px 21px 0px 21px;
+}
+.j-show .j-show-imag{
+    width: 100%;
+    padding:0px 34px 0px 34px;
+}
+.j-show .j-show-imag img{
+    width: 540px;
+}
+/*尾部的书写，组复杂的一部分*/
+.j-list-bottom{
+    width: 100%;
+    height: 40px;
+    padding: 8px 0;
+}
+.j-list-bottom>div{
+    float: left;
+}
+/*hate love*/
+.j-list-bottom .j-lh{
+    width:200px;
+    height: 40px;
+}
+.j-list-bottom .j-lh ul li{
+    float: left;
+    width: 99px;
+    height: 30px;
+    position: relative;
+}
+.j-list-bottom .j-lh ul li .icon-love:before,.icon-hate:before{
+    top:12px;
+    left: 0px;
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url('../img/j_pc_spriter_common1.0.9.png') no-repeat;
+    background-position: -32px -418px;
+}
+.j-list-bottom .j-lh ul li .icon-love:before{
+    background: url('../img/j_pc_spriter_common1.0.9.png') no-repeat;
+    background-position: -52px -418px;
+}
+.j-list-bottom .j-lh ul li .love-count,.hate-count{
+    margin-left: 30px;
+    font-size: 16px;
+    color: #cbcbcb;
+    position: relative;
+    top:12px;
+}
+/*分享*/
+.j-fx {
+    width: 270px;
+    height: 40px;
+}
+.j-fx .fx{
+   width: 108px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 40px;
+    color:#cbcbcb;
+}
+.j-fx .fx-to{
+    width: 162px;
+    height: 40px;
+}
+.j-fx .fx-to a{
+    display: block;
+    position: relative;
+    float: left;
+    width: 25px;
+    height: 24px;
+    background-color: red;
+    margin: 9px 6px 6px 0;
+    background: url("../img/share/icons_1_24.png") no-repeat;
+}
+.j-fx .fx-to .kongjian{
+    background-position:0 0;
+}
+.j-fx .fx-to .weixin{
+    background-position:0 -52px;
+}
+.j-fx .fx-to .qq{
+    background-position:0 -105px;
+}
+.j-fx .fx-to .weibo{
+    background-position:0 -207px;
+}
+.j-fx .fx-to .renren{
+    background-position:0 -258px;
+}
+.j-fx .fx-to a:hover{
+    opacity: 0.8;
+}
+.j-xsp{
+    width: 138px;
+    height: 40px;
+}
+.j-xsp ul li{
+    float: left;
+    line-height: 40px;
+    margin-left: 4.5px;
+    position: relative;
+}
+.j-xsp ul .xiazai,.shoucang{
+    width: 30px;
+    height: 40px;
+}
+.j-xsp ul .pinglun{
+    width:60px;
+    height: 40px;
+
+}
+.j-xsp ul li i:before{
+    content: "";
+    top:12px;
+    left: 0px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background: url('../img/j_pc_spriter_common1.0.9.png') no-repeat;
+}
+.j-xsp ul .xiazai i:before{
+    background-position: -104px -413px;
+}
+.j-xsp ul .shoucang i:before{
+    background-position: -80px -415px;
+}
+.j-xsp ul .pinglun i:before{
+    background-position: -153px -413px;
+}
+.j-xsp ul .pinglun span{
+    margin-left: 30px;
+    font-size: 16px;
+    color: #cbcbcb;
+    position: relative;
+    top:6px
+}
+/*底部*/
+.j-go-to{
+    width:608px;
+    height: 30px;
+    padding-top: 10px;
+
+}
+.j-go-to a{
+    display: block;
+    width: 35px;
+    height: 28px;
+    border: 1px solid black;
+    line-height: 30px;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color:black;
+    margin-left: 10px;
+
+}
+.j-go-to .sl{
+    background-color: rgb(243,243,243);
+    font-size: 16px;
+    color: black;
+    line-height: 30px;
+}
+.j-go-to .num-current{
+    background-color: red;
+    color: white;
+}
+.j-go-to .current-p{
+    background-color: red;
+    color: white;
+}
+.j-go-to input{
+    float: left;
+    width: 100px;
+    height: 23px;
+    margin-left: 10px;
+   border: 1px solid black;
+
+}
+
+
+
+
+
+
